@@ -13,6 +13,8 @@
 		671B825E230D8342006600BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671B825C230D8342006600BE /* Main.storyboard */; };
 		671B8260230D8343006600BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671B825F230D8343006600BE /* Assets.xcassets */; };
 		671B8263230D8343006600BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671B8261230D8343006600BE /* LaunchScreen.storyboard */; };
+		671B826B230D86A0006600BE /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671B826A230D86A0006600BE /* ThirdViewController.swift */; };
+		671B826D230D86F7006600BE /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671B826C230D86F7006600BE /* MyTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		671B825F230D8343006600BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		671B8262230D8343006600BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		671B8264230D8343006600BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		671B826A230D86A0006600BE /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		671B826C230D86F7006600BE /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				671B8256230D8342006600BE /* AppDelegate.swift */,
 				671B8258230D8342006600BE /* FirstViewController.swift */,
 				671B825A230D8342006600BE /* SecondViewController.swift */,
+				671B826A230D86A0006600BE /* ThirdViewController.swift */,
+				671B826C230D86F7006600BE /* MyTableViewController.swift */,
 				671B825C230D8342006600BE /* Main.storyboard */,
 				671B825F230D8343006600BE /* Assets.xcassets */,
 				671B8261230D8343006600BE /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				671B825B230D8342006600BE /* SecondViewController.swift in Sources */,
 				671B8257230D8342006600BE /* AppDelegate.swift in Sources */,
+				671B826B230D86A0006600BE /* ThirdViewController.swift in Sources */,
+				671B826D230D86F7006600BE /* MyTableViewController.swift in Sources */,
 				671B8259230D8342006600BE /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
