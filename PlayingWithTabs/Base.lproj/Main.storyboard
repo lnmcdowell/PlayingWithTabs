@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--Starter-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="PlayingWithTabs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Starter" id="9pv-A4-QxB" customClass="FirstViewController" customModule="PlayingWithTabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Epo-5T-p62"/>
+                        <viewControllerLayoutGuide type="bottom" id="KKo-bg-ZKU"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,12 +37,11 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.3351151856650928" blue="0.17340609302648924" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
-                            <constraint firstItem="uDR-5c-OBf" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
+                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="uDR-5c-OBf"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
                 </viewController>
@@ -51,6 +53,10 @@
         <scene sceneID="wg7-f3-ORb">
             <objects>
                 <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="PlayingWithTabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IE9-kR-H57"/>
+                        <viewControllerLayoutGuide type="bottom" id="ndN-SV-6o4"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -73,10 +79,9 @@
                         <constraints>
                             <constraint firstItem="NDk-cv-Gan" firstAttribute="top" secondItem="zEq-FU-wV5" secondAttribute="bottom" constant="8" symbolic="YES" id="Day-4N-Vmt"/>
                             <constraint firstItem="NDk-cv-Gan" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="JgO-Fn-dHn"/>
-                            <constraint firstItem="PgP-ra-Wkm" firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
+                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
                             <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="PgP-ra-Wkm"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
                 </viewController>
@@ -113,29 +118,72 @@
             </objects>
             <point key="canvasLocation" x="-842" y="1031"/>
         </scene>
-        <!--Third-->
+        <!--Map-->
         <scene sceneID="2hb-9m-fay">
             <objects>
-                <viewController title="Third" id="ifQ-Cl-w9V" customClass="ThirdViewController" customModule="PlayingWithTabs" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Map" id="ifQ-Cl-w9V" customClass="ThirdViewController" customModule="PlayingWithTabs" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4Cf-ea-vdz"/>
+                        <viewControllerLayoutGuide type="bottom" id="5AZ-RM-GiP"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rPg-Af-02B">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZvS-Y9-sVi">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="f4T-Ih-qlq">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="537"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="ifQ-Cl-w9V" id="IHl-FN-Xtm"/>
+                                        </connections>
+                                    </mapView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Pin" translatesAutoresizingMaskIntoConstraints="NO" id="iru-al-dy5">
+                                        <rect key="frame" x="167.5" y="225.5" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="JV8-ca-P3L"/>
+                                            <constraint firstAttribute="height" constant="40" id="a9t-kc-vH6"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdG-mc-GHE">
+                                        <rect key="frame" x="0.0" y="537" width="375" height="50"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="e9x-jx-lrv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="bdG-mc-GHE" firstAttribute="leading" secondItem="ZvS-Y9-sVi" secondAttribute="leading" id="DJH-Mt-ZLh"/>
+                                    <constraint firstAttribute="bottom" secondItem="bdG-mc-GHE" secondAttribute="bottom" constant="80" id="O6m-vz-5mg"/>
+                                    <constraint firstItem="bdG-mc-GHE" firstAttribute="top" secondItem="f4T-Ih-qlq" secondAttribute="bottom" id="Pc5-VO-JhD"/>
+                                    <constraint firstItem="iru-al-dy5" firstAttribute="centerX" secondItem="f4T-Ih-qlq" secondAttribute="centerX" id="UPE-ud-VJL" userLabel="Pin.centerX = centerX - 8"/>
+                                    <constraint firstItem="f4T-Ih-qlq" firstAttribute="leading" secondItem="ZvS-Y9-sVi" secondAttribute="leading" id="aGX-9N-RBK"/>
+                                    <constraint firstAttribute="trailing" secondItem="bdG-mc-GHE" secondAttribute="trailing" id="aan-vX-NXx"/>
+                                    <constraint firstItem="iru-al-dy5" firstAttribute="centerY" secondItem="f4T-Ih-qlq" secondAttribute="centerY" constant="-23" id="hg8-s6-xQf"/>
+                                    <constraint firstItem="f4T-Ih-qlq" firstAttribute="top" secondItem="ZvS-Y9-sVi" secondAttribute="top" id="jnx-fN-yYA"/>
+                                    <constraint firstAttribute="trailing" secondItem="f4T-Ih-qlq" secondAttribute="trailing" id="uky-5b-Cta"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.26767918789165412" green="0.3026871189958088" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="ZvS-Y9-sVi" firstAttribute="top" secondItem="rPg-Af-02B" secondAttribute="top" id="0Cc-eG-CDp"/>
-                            <constraint firstItem="ZvS-Y9-sVi" firstAttribute="trailing" secondItem="NjF-kA-zdc" secondAttribute="trailing" id="Jnh-TD-yTL" userLabel="View.trailing = View.trailing"/>
-                            <constraint firstItem="ZvS-Y9-sVi" firstAttribute="leading" secondItem="NjF-kA-zdc" secondAttribute="leading" id="Ys1-ii-rRd" userLabel="View.leading = View.leading"/>
+                            <constraint firstItem="ZvS-Y9-sVi" firstAttribute="trailing" secondItem="rPg-Af-02B" secondAttribute="trailing" id="Jnh-TD-yTL" userLabel="View.trailing = View.trailing"/>
+                            <constraint firstItem="ZvS-Y9-sVi" firstAttribute="leading" secondItem="rPg-Af-02B" secondAttribute="leading" id="Ys1-ii-rRd" userLabel="View.leading = View.leading"/>
                             <constraint firstAttribute="bottom" secondItem="ZvS-Y9-sVi" secondAttribute="bottom" id="kky-ez-loB"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="NjF-kA-zdc"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="787-F9-Aof"/>
+                    <connections>
+                        <outlet property="addressLabel" destination="bdG-mc-GHE" id="MHQ-wH-vWo"/>
+                        <outlet property="mapView" destination="f4T-Ih-qlq" id="s7y-VG-fly"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UIC-7w-t9M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -164,6 +212,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Pin" width="16" height="46"/>
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
